@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="background">
+    <div class="navbar">
+         <div class='logo'>
+            <span style="font-family:sans-serif, sans-serif;color: #668ad8;">
+                 Go India
+                </span>
+         </div>
+         <div class="contents">
+            <div class="home"> 
+                <a
+                     class="buttooon" onclick="myFunctionh()">Home
+                </a>
+            </div > 
+           <div class="aboutus">
+            <a
+                class="buttooon" onclick="myFunctiona()">About us 
+            </a>
+
+           </div>
+           <div class="Destinations">
+            <select   class="dropdown"   onchange="city(event.target.value)">
+                <option  value='1'  > 
+                    Destinations
+                </option>
+                <option  value='2'>
+                    Delhi
+                 </option>
+                 <option  value='3' >
+                     Jaipur
+                  </option>
+                  <option  value='4' >
+                     Agra
+                  </option>
+                  <option  value='5' >
+                     Mumbai
+                  </option>
+                  <option  value='6' >
+                     Hyderabad
+                  </option>
+                  <option  value='7' >
+                     Vishakapatnam
+                  </option>
+                  <option  value='8'>
+                     Andaman
+                  </option>
+                  <option  value='9'>
+                    Ladakh
+                 </option>
+                
+              </select>
+             <script>
+                
+                function city(val){
+                    if(val=='1'){
+                       window.location='Home.html'
+                    }
+                    else if(val=='2'){
+                        window.location='delhi.html'
+                    }
+                    else if(val=='3'){
+                        window.location='jaipur.html'
+                    }
+                    else if(val=='4'){
+                        window.location='agra.html'
+                    }
+                    else if(val=='5'){
+                        window.location='mumbai.html'
+                    }
+                    else if(val=='6'){
+                        window.location='hyderabad.html'
+                    }
+                    else if(val=='7'){
+                        window.location='vishakapatnam.html'
+                    }
+                    else if(val=='8'){
+                        window.location='andaman.html'
+                    }
+                    else if(val=='9'){
+                        window.location='ladakh.html'
+                    }
+                }
+                 function myFunctionh(){
+                     window.location='Home.html'
+                 }
+                 function myFunctiona(){
+                     window.location='my.aboutus.html'
+                 }
+
+             </script>
+           
+           </div>
+               
+               
+         </div>
+       
+       
+       
+       
+       
+     </div>
+   
+         <div class="text">
+             <span>
+                 Explore the world with us..!
+             </span>
+
+         </div>
+         <div class="text2">
+      <span>
+          Get started on vacation planning by exploring India via our "Go India"
+      </span>
+         </div>
+         <div class="div3">
+    
+
+            <p class="subtitle"> Explore the world with us..! </p>
+           <b> <p class="para"> "Get started on your vacation planning
+                by exploring India via our “Go India”</p></b>
+         </div >
+    
+         <br>
+        </br>  
+    
+        <ul style="position:absolute;left: -50pxpx; top: 59%;list-style: none;">  
+             
+        <li>   
+        <a href="https://m.facebook.com/" class="fa fa-facebook"> </a>   
+        </li>  
+        <li>  
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>  
+        </li>  
+        <li>  
+        <a href= "https://twitter.com/" class="fa fa-twitter"></a> 
+        </li>
+        </ul>
+    
+    </div>
+    <div class="fixed">
+        <a href="contactus.html"> <i class="material-icons"style="font-size: 52px;color:darkslateblue;">support_agent</i></a>
+     </div>
+     <footer >
+         <div class="container">
+             <div class="container2">
+                <span style="font-weight:900; color: #668ad8;">Find us on </span>
+                <div class="logos">
+                    <a href="https://m.facebook.com" class="fa fa-facebook" ;"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                </div>
+             </div>
+             <div class="container3">
+                <div class="about">
+                    <span style="font-weight:900; color: #668ad8;">
+                        About us 
+                        <br>
+                        <br>
+                    </span>
+                    <span>
+                        This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.
+                    </span>
+                </div>
+             </div>
+       
+        <div class="enquiry">
+            <div class="enq">
+                <span style="font-weight:900; color: #668ad8;">
+                    Enquiry
+                </span>
+            </div>
+  
+   
+   <span>
+       <a href="https://gmail.com/" style="color: white;">goindia@support.in</a>
+   </span>
+        </div>
+         </div>
+
+     </footer>
+
+
+</body>
+</html>
